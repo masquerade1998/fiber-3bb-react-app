@@ -1,0 +1,191 @@
+.header-bottom {
+    top: 0px;
+    display: flex;
+    align-items: center;
+    background-color: #f27025;
+    padding: 0 0 0 0;
+}
+
+.header-bottom ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.header-bottom ul li {
+    list-style: none;
+}
+
+.header-bottom ul li:hover {
+    background-color: #ffffff;
+}
+
+.header-bottom .header-row {
+    width: 100%;
+    padding-right: 8px;
+    padding-left: 8px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header-bottom .header-col {
+    text-align: center;
+}
+
+.header-col {
+    display: flex;
+}
+
+.header-row .header-col:only-child {
+    flex: 0 0 100%;
+}
+
+.header-bottom .header-row .header-col {
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: center;
+}
+
+.menu-wrap {
+    visibility: visible;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+}
+
+#menu-wrap #main-menu {
+    visibility: visible;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+}
+
+#menu-wrap #main-menu > li.menu-item {
+    margin: 0 28px 0 0;
+    display: inline-block;
+    height: auto;
+    vertical-align: middle;
+}
+
+#menu-wrap #main-menu > li.menu-item > a.menu-link {
+    line-height: 50px;
+    height: 50px;
+    padding: 0px 13px 0px 13px;
+    width: auto;
+    display: block;
+    color: #ffffff;
+    text-transform: none;
+    text-decoration: none;
+    text-align: center;
+    background: rgba(0, 0, 0, 0);
+    border: 0;
+    border-radius: 0;
+    font-size: 18px;
+    font-weight: 300;
+    outline: none;
+}
+
+.header-bottom #menu-wrap #main-menu > li.menu-item > a.menu-link:hover {
+    color: #f8941c;
+}
+
+.header-bottom #menu-wrap #menu-item-1 > a.menu-link::before {
+    content: "";
+    background-image: url('https://fiber.3bb.co.th/wp-content/uploads/2020/11/home3@3x.png');
+    background-size: 17px 17px;
+    background-repeat: no-repeat;
+    width: 17px;
+    height: 17px;
+    line-height: 17px;
+    vertical-align: middle;
+}
+
+.header-bottom #menu-wrap #menu-item-2 > a.menu-link::before {
+    content: "";
+    background-image: url('https://fiber.3bb.co.th/wp-content/uploads/2020/11/internet-3@3x.png');
+    background-size: 17px 17px;
+    background-repeat: no-repeat;
+    width: 17px;
+    height: 17px;
+    line-height: 17px;
+    vertical-align: middle;
+}
+
+.header-bottom #menu-wrap #menu-item-3 > a.menu-link::before {
+    content: "";
+    background-image: url('https://fiber.3bb.co.th/wp-content/uploads/2021/04/Household-Tv-icon@3x.png');
+    background-size: 17px 17px;
+    background-repeat: no-repeat;
+    width: 17px;
+    height: 17px;
+    line-height: 17px;
+    vertical-align: middle;
+}
+
+.header-bottom #menu-wrap #menu-item-4 > a.menu-link::before {
+    content: "";
+    background-image: url('https://fiber.3bb.co.th/wp-content/uploads/2020/11/839981@3x.png');
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+}
+
+.header-bottom #menu-wrap #menu-item-5 > a.menu-link::before {
+    content: "";
+    background-image: url('https://fiber.3bb.co.th/wp-content/uploads/2020/11/Bitmap@3x.png');
+    background-size: 17px 17px;
+    background-repeat: no-repeat;
+    width: 17px;
+    height: 17px;
+    line-height: 17px;
+    vertical-align: middle;
+}
+
+.header-bottom #menu-wrap #menu-item-6 > a.menu-link::before {
+    content: "";
+    background-image: url('https://fiber.3bb.co.th/wp-content/uploads/2020/11/@3x.png');
+    background-size: 17px 17px;
+    background-repeat: no-repeat;
+    width: 17px;
+    height: 17px;
+    line-height: 17px;
+    vertical-align: middle;
+}
+
+.header-bottom #menu-wrap li.menu-item a.menu-link::before {
+    display: inline-block;
+    position: static;
+    margin: 0 6px 0 0px;
+    background: transparent;
+}
+
+@media (min-width: 576px) {
+    .header-bottom .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .header-bottom .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .header-bottom .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1296px) {
+    .header-bottom .container {
+        max-width: 1280px;
+    }
+}

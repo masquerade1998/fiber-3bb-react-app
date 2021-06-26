@@ -1,0 +1,211 @@
+.header-main {
+    top: 0px;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.header-main ul li {
+    list-style: none;
+}
+
+.header-main .container {
+    min-height: 68px;
+    position: relative;
+    display: flex;
+    vertical-align: middle;
+}
+
+.header-main .header-row {
+    display: flex;
+    margin: auto;
+}
+
+.header-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header-row .header-left {
+    margin-right: auto;
+}
+
+.header-row .header-right {
+    margin-left: auto;
+}
+
+.header-main .header-left, .header-main .header-center, .header-main .header-right {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header-left {
+    text-align: left;
+}
+
+.header-right {
+    text-align: right;
+}
+
+.header-main .container > div {
+    position: relative;
+    vertical-align: middle;
+}
+
+.standard-logo {
+    width: 100px;
+    height: auto;
+}
+
+.header-main .header-center {
+    padding: 20px 15px;
+    text-align: center;
+}
+
+.logo {
+    margin: 0;
+    padding: 0;
+    min-width: 80px;
+    line-height: 0;
+}
+
+.img-width-header {
+    width: 23%;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.btn-login {
+    padding: 4px 4px 4px 4px;
+    margin: 0 10px;
+    width: 100px;
+    font-size: 16px;
+    color: #3e4555;
+    border: none;
+    background-color: transparent;
+    outline: none !important;
+    border: 1px solid #e8e8e8;
+}
+
+.custom-html {
+    margin-left: 0 !important;
+}
+
+.language-switcher {
+    position: relative;
+    width: auto;
+    display: inline-block;
+    padding: 0;
+    border: 0;
+    margin: 2px;
+    box-sizing: border-box;
+}
+
+.language-switcher .language-switcher-container {
+    display: inline-block;
+}
+
+.language-switcher > div {
+    box-sizing: border-box;
+    padding: 3px 20px 3px 5px;
+    border: 1px solid #c1c1c1;
+    border-radius: 3px;
+    background-image: linear-gradient(45deg, transparent 50%, gray 50%)
+                    , linear-gradient(135deg, gray 50%, transparent 50%);
+    background-position: calc(100% - 8px) calc(1em + 0px),
+                        calc(100% - 3px) calc(1em + 0px);
+    background-size: 5px 5px,
+                    5px 5px;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+}
+
+.header-main .top-link {
+    font-size: .7857em;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header-main .mega-menu::before, .header-main .mega-menu::after {
+    content: " ";
+    display: table;
+}
+
+.header-main a {
+    text-decoration: none;
+}
+
+.mega-menu {
+    margin: 0;
+    padding: 0;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.mega-menu a:hover{
+    color: #fd7e14;
+}
+
+.header-main .mega-menu > li.menu-item {
+    display: inline-block;
+    margin-right: 0;
+    position: relative;
+}
+
+.menu-horizontal::before, .menu-horizontal::after {
+    content: " ";
+    display: table;
+}
+
+.header-main #menu-wrap #menu-secondary #menu-item-1 > a.menu-link::before {
+    content: " ";
+    background-image: url('https://fiber.3bb.co.th/wp-content/uploads/2021/01/Hamburger_icon.svg_.png');
+    background-size: 17px 17px;
+    background-repeat: no-repeat;
+    width: 17px;
+    height: 17px;
+    line-height: 17px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.header-main #menu-wrap #mune-secondary li.menu-item  a.menu-link::before {
+    position: static;
+    margin: 0 6px 0 0px;
+    vertical-align: top;
+    background: transparent;
+    width: auto;
+    height: auto;
+}
+
+*::before, *::after {
+    box-sizing: border-box;
+}
+
+@media (min-width: 576px) {
+    .header-main .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .header-main .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .header-main .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1296px) {
+    .header-main .container {
+        max-width: 1280px;
+    }
+}

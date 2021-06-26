@@ -1,0 +1,9 @@
+.main-12 {
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.main-12 img {
+    width: 3840px;
+}

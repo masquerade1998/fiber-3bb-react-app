@@ -1,0 +1,160 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.footer-main .container {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+p {
+    letter-spacing: 0;
+    margin: 0 0 1.25rem;
+}
+
+p:empty::before {
+    content: "";
+}
+
+a:hover {
+    text-decoration: underline #f27025;
+}
+
+.footer-main .widget p {
+    font-size:  1em;
+    margin-top: -3px;
+    margin-bottom: 13px;
+}
+
+.foodter-main .row-container {
+    margin-bottom: 0;
+    display: flex;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    letter-spacing: -0.05em;
+    color: #222529;
+    text-transform: none;
+}
+
+h2 {
+    font-weight: 400;
+    line-height: 40px;
+    margin-bottom: auto;
+    margin-top: auto;
+    font-size: 24px;
+}
+
+h2 span {
+    color: #f5941c;
+}
+
+strong {
+    font-weight: 700;
+}
+
+h4 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px !important;
+    font-weight: 400;
+    line-height: 27px;
+    margin: 0 0 14px 0;
+}
+
+h4 span {
+    color: #3e4555;
+}
+
+h5 {
+    margin-bottom: 10px;
+    margin-top: auto;
+    font-size: 16px; 
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.p-2 {
+    padding: 0.5rem !important;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.footer-main .wrapper p {
+    text-align: center;
+}
+
+.logo-popup {
+    clear: both;
+    display: block;
+    margin: 4px auto 7px;
+    text-align: center;
+    width: 164px;
+    height: 70px;
+}
+
+.footer-main .wrapper div {
+    text-align: center;
+}
+
+.footer-main .wrapper div p {
+    margin-top: -3px;
+    margin-bottom: 13px;
+}
+
+.footer-main .wrapper h4 img {
+    width: 100px;
+    height: 44px;
+}
+
+.column-container{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.footer-main .container {
+    position: relative;
+    width: 100%;
+    padding-right: 8px;
+    padding-left: 8px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    .footer-main .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .footer-main .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .footer-main .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1296px) {
+    .footer-main .container {
+        max-width: 1280px;
+    }
+}
+
+@media (min-width:768px) {
+    .footer-main .column-container {
+        flex: 0 0 33.333333333333%;
+        max-width: 33.333333333333%;
+    }
+}
+
